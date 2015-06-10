@@ -3,6 +3,8 @@
 	
 	include("DAO.php");
 
+	//este script deberia tener un case para saber que va a mostrar
+
 
 	class controlador {
 
