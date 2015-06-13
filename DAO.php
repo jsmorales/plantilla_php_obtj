@@ -9,8 +9,6 @@ van los datos de conexion.
 //include("datos_conexion.php"); 
 include("clase_conectar.php");
 
-//global $servidor,$usuario,$pass,$bd;
-
 	
 class DAO_ejemplo {
 
