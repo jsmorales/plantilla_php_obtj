@@ -4,7 +4,7 @@
 
 	$servidor="localhost";
 	$usuario="root";
-	$pass="Lunel2016";
-	$bd="campanas";
+	$pass="3115208657";
+	$bd="prueba_bd";
 
  ?>

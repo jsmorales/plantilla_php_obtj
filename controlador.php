@@ -29,7 +29,7 @@
 				aca ya se usan las clases anteriores de una forma específica.
 			*/
 
-			$this->res_consulta = $this->acceso_data->consultar("select * from tipo_aliado");
+			$this->res_consulta = $this->acceso_data->consultar("select * from usuarios");
 
 			foreach ($this->res_consulta as $key => $value) {
 				# code...

@@ -6,7 +6,6 @@ desde aca se ejecutan los querys a la base de datos, por lo tanto aca es donde
 van los datos de conexion.
 */
 
-//include("datos_conexion.php"); 
 include("clase_conectar.php");
 
 	
@@ -24,10 +23,7 @@ class DAO_ejemplo {
 	//----------------------------------------------
 	public function conectar(){
 
-		$servidor="localhost";
-		$usuario="root";
-		$pass="Lunel2016";
-		$bd="campanas";
+		include("datos_conexion.php");
 
 		$this->conexion_1 = new conexion($servidor,$usuario,$pass,$bd);
 
